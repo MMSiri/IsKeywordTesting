@@ -4,7 +4,7 @@ using System.Text;
 
 namespace IsKeywordTesting
 {
-    class Hippo : Animal    
+    class Hippo : Animal, ISwimmer    
     {
         public override void MakeNoise()
         {
